@@ -1,0 +1,303 @@
+@media screen and (max-width: 480px){
+  body{
+    margin: 0;
+    padding: 0;
+    background-image: url(img/Pbeso1.jpg);
+    background-repeat:  no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+  }
+
+  .check{
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    z-index: 1;
+    width: 20px;
+    height: 20px;
+    opacity: 0;
+  }
+
+  .check:checked ~ #menu{
+    position: fixed;
+    left: 0;
+    transition: 1s;
+  }
+
+  #cabecera{
+    background-color: #FFF;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 40px;
+
+  }
+  #logo{
+  width: 20px;
+  height: 5%;
+  float: left;
+  margin: 0 0 0 5px;
+  padding: 0;
+  text-align: center;
+  padding-top: 8px;
+  }
+  #logo img{
+    width: auto;
+    height: 20px;
+    padding: 10px 0;
+
+  }
+  h1{
+    font-family: 'Damion', cursive;
+font-size: 20px;
+width: 24%;
+height: 25%;
+float: left;
+margin: 0;
+padding: 15px 0;
+text-align: center;
+margin-left: 108px;
+  }
+
+  #redesso{
+    width: 70px;
+  float: left;
+  padding-top: 20px;
+  margin: 7px 0 0 38px;
+  }
+  #redesso li{
+    list-style-type: none;
+  }
+  .redes{
+  width: 10px;
+  height: auto;
+  float: right;
+  padding: 0 4px 0 0px;
+  margin: 0px;
+
+  }
+
+  #general{
+  background-color: #FFF;
+  opacity: 0.7;
+  width: 80%;
+  height: 0 auto;
+  margin: 25px auto;
+  }
+
+  #burguer{
+    position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 5px;
+  left: 50px;
+  margin-top: 7px;
+
+  }
+
+  #burguer li{
+    width: 21px;
+      height: 1px;
+      background-color: black;
+      margin: 5px 0;
+  }
+
+
+  #menu{
+    background: white;
+    width: 50px;
+    height: 120px;
+    left: -100%;
+    position: absolute;
+    font-size: 15px;
+    margin-top: -26px;
+    padding: -24px 0 0 10px;
+    padding-left: 10px;
+    opacity: 2;
+
+
+
+  }
+
+li{
+  list-style-type: none;
+}
+  #menu li{
+left: -20px;
+margin-bottom: 10px;
+
+  }
+
+  #info{
+
+  width: 90%;
+  height: 20%;
+  margin: 0 auto;
+  padding: 10px 36px 0 0;
+
+
+  }
+
+  #tituloguia p{
+    text-align: center;
+        margin-left: 42%;
+        margin: 0 auto;
+        margin-top: -37px;
+        width: 32%;
+        /* background: red; */
+        font-size: 17px;
+
+  }
+
+  #Racons{
+    height: 29%;
+        margin-left: 84px;
+        margin-top: 39px;
+
+  }
+
+  #fotosracons{
+  height: 66px;
+  width: 63px;
+  background-image: url(img/IMG-3351.JPG);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 50%;
+  background-size: 100% auto;
+  clear: both;
+  float: left;
+  margin-left: -71px;
+  margin-top: -28px;
+  }
+
+
+  .portada{
+    width:300px;
+  height:300px;
+  border-radius: 50px;
+  }
+
+  #titulofoto p{
+    background: #0474c3;
+        margin-left: -6%;
+        margin-top: 15px;
+        float: left;
+        width: 9%;
+        height: 2%;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 10px;
+        clear: both;
+        position: absolute;
+  }
+
+
+
+  #titulofoto1 p{
+    float: left;
+      background: #0474c3;
+      font-size: 28px;
+      margin-top: 15px;
+    margin-left: 29%;
+      width: 9%;
+      height: 2%;
+      border-radius: 10px;
+      text-align: center;
+      font-size: 10px;
+      clear: both;
+      position: absolute;
+  }
+
+
+  #fotosmuseus{
+    height: 66px;
+  width: 63px;
+  background-image: url(img/IMG-2333.JPG);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 50%;
+  background-size: 100% auto;
+  clear: both;
+  float: left;
+  margin-top: -66px;
+  z-index: 2;
+  margin-left: 40%;
+  }
+
+
+
+  #fotoscentres{
+    height: 66px;
+        width: 63px;
+        background-image: url(img/IMG-4050.jpg);
+        background-repeat: no-repeat;
+        background-position: 50%;
+        border-radius: 50%;
+        background-size: 100% auto;
+        clear: both;
+        float: left;
+        margin-top: -66px;
+        z-index: 2;
+        margin-left: 75%;
+  }
+
+
+  #titulofoto2 p{
+    float: left;
+    background: #0474c3;
+    font-size: 28px;
+    margin-top: 13px;
+    margin-left: 65%;
+    width: 9%;
+    height: 2%;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 6px;
+    clear: both;
+    position: absolute;
+  }
+#Expl{
+  font-size: 10px;
+margin-top: 23px;
+margin-bottom: -25px;
+width: 175px;
+}
+  #Expl{
+    background: rgba(255, 185, 0, 0.5);
+      width: 53%;
+      height: 0 auto;
+      margin-left: 30%;
+      margin-top: 27%;
+    font-size: 10px;
+      font-family: 'Katibeh', cursive;
+  }
+
+  .button {
+    display: inline-block;
+  padding: 4px 8px;
+  font-size: 24px;
+  cursor: pointer;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 1px #999;
+  }
+
+  .button:hover {background-color: #3e8e41}
+
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+
+
+}
