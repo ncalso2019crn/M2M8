@@ -1,0 +1,445 @@
+@media screen and (max-width: 480px){
+body{
+margin: 0;
+padding: 0;
+background-image: url(img/Pbeso1.jpg);
+background-repeat:  no-repeat;
+width: 100%;
+height: 100%;
+background-size: 100%;
+}
+
+
+.menu-lateral {
+display: table;
+width: 100%;
+margin-left: 0px;
+padding-left: 0px;
+}
+.menu-lateral__item a {
+list-style-type: none;
+display: block;
+padding: 5px 3px;
+background-color: #F0F0F0;
+color: #A0A0A0;
+text-decoration: none;
+}
+.menu-lateral__item a:hover{
+background-color: #E8E8E8;
+color: #707070;
+}
+
+.menu-lateral__item{
+font-size: 7px;
+}
+
+
+.nav--top {
+position: absolute;
+top: 16px;
+left: 53px;
+z-index: 10;
+font-size: 11px;
+width: 33px;
+height: 16px;
+color: white;
+overflow: hidden;
+cursor: pointer;
+
+}
+.nav--top:after {
+content: "☰";
+font-size: 15px;
+width: 8em;
+line-height: 2;
+text-align: center;
+position: absolute;
+top: 86%;
+left: -39%;
+margin-top: -20px;
+margin-left: -31px;
+}
+
+.nav--top__list {
+list-style: none;
+margin: 0;
+padding: 0;
+padding-top: 25px;
+font-size: -1px;
+padding-right: -14px;
+/* margin-left: 0px; */
+position: absolute;
+top: 0;
+left: 0;
+background-color: lightblue;
+width: 4px;
+z-index: -1;
+height: 26px;
+}
+
+.checkbox__hack {
+display: none;
+
+}
+
+.checkbox__hack:checked ~ .nav--top {
+overflow: visible;
+}
+.checkbox__hack:checked ~ .nav--top::after {
+content: "x";
+}
+
+.checkbox-hack__label {
+position: absolute;
+top: 13px;
+left: 31px;
+z-index: 100;
+width: 22%;
+height: 23.8px;
+color: white;
+overflow: visible;
+cursor: pointer;
+margin: 0;
+z-index: 100;
+}
+#cabecera{
+background-color: #FFF;
+margin: 0;
+padding: 0;
+overflow: hidden;
+height: 40px;
+
+}
+#logo{
+width: 20px;
+height: 5%;
+float: left;
+margin: 0 0 0 5px;
+padding: 0;
+text-align: center;
+padding-top: 8px;
+}
+#logo img{
+width: auto;
+height: 20px;
+padding: 10px 0;
+
+}
+h1{
+font-family: 'Damion', cursive;
+font-size: 20px;
+width: 24%;
+height: 25%;
+float: left;
+margin: 0;
+padding: 15px 0;
+text-align: center;
+margin-left: 108px;
+}
+
+#redesso{
+width: 70px;
+float: left;
+padding-top: 20px;
+margin: 7px 0 0 38px;
+}
+#redesso li{
+list-style-type: none;
+}
+.redes{
+width: 10px;
+height: auto;
+float: right;
+padding: 0 4px 0 0px;
+margin: 0px;
+
+}
+
+#info{
+
+
+
+
+}
+
+#tituloguia{
+  text-align: center;
+      font-size: 15px;
+
+
+}
+
+
+#guia{
+  width: 100%;
+  height: 340px;
+  margin-bottom: 5%;
+}
+
+#fotoguia{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin-left: -30px;
+}
+
+#fotoguia img{
+  text-align: center;
+    height: auto;
+
+}
+#textg{
+  font-size: 1em;
+  clear: both;
+margin-top: -131px;
+    width: 90%;
+}
+
+
+#divbotons3{
+  float: left;
+margin-left: 50%;
+position: relative;
+margin-top: -6%;
+width: 40%;
+height: 30%;
+
+}
+
+#divbotons3 a {
+  margin:2%;
+}
+
+.boton_personalizado111{
+  float: left;
+    text-decoration: none;
+    padding: 1%;
+    font-size: 8px;
+    color: black;
+    background-color: #B2B1B1;
+    border-radius: 6px;
+    border: 2px solid black;
+ }
+
+ .boton_personalizado222{
+   float: left;
+    text-decoration: none;
+    padding: 1%;
+    font-size: 8px;
+    color: black;
+    background-color: #B2B1B1;
+    border-radius: 6px;
+    border: 2px solid black;
+}
+
+
+
+
+#titulosamarreta{
+  text-align: center;
+      font-size: 15px;
+      margin-top: 36%;
+
+}
+
+
+
+#samarreta{
+  width: 100%;
+    height: 25%;
+    margin-bottom: 5%;
+}
+
+#fotosamarreta{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    margin-left: -30px;
+}
+#fotosamarreta img{
+  width: 80%;
+      height: auto;
+      margin-left: 15%;
+}
+
+#texts{
+  font-size: 1em;
+float: left;
+
+width: 90%;
+
+}
+
+#texts p{
+  padding: 10px;
+
+
+}
+#text li {
+margin-left: 10px;
+}
+
+#divbotons{
+  float: left;
+      margin-left: 49%;
+      position: relative;
+      width: 40%;
+      height: 30%;
+      background-color: ;
+      margin-top: -6%;
+  }
+
+}
+
+#divbotons a {
+  margin:2%;
+}
+
+.boton_personalizado1{
+  float: left;
+    text-decoration: none;
+    padding: 1%;
+    font-size: 8px;
+    color: black;
+    background-color: #B2B1B1;
+    border-radius: 6px;
+    border: 2px solid black;
+ }
+
+ .boton_personalizado2{
+   float: left;
+    text-decoration: none;
+    padding: 1%;
+    font-size: 9px;
+    color: black;
+    background-color: #B2B1B1;
+    border-radius: 6px;
+    border: 2px solid black;
+  }
+
+  .boton_personalizado3{
+    float: left;
+     text-decoration: none;
+     padding: 1%;
+     font-size: 8px;
+     color: black;
+     background-color: #B2B1B1;
+     border-radius: 6px;
+     border: 2px solid black;
+   }
+   .boton_personalizado4{
+      margin-top: 10px;
+     float: right;
+      text-decoration: none;
+      padding: 1%;
+      font-size: 8px;
+      color: black;
+      background-color: #B2B1B1;
+      border-radius: 6px;
+      border: 2px solid black;
+    }
+
+#chapes{
+  width: 100%;
+  height: 80%;
+  margin-bottom: 10%;
+}
+
+#titulochapes{
+  text-align: center;
+font-size: 15px;
+
+
+
+}
+
+
+
+#fotochapes{
+  background-color: ;
+  width: 90%;
+  height: 250px;
+clear: both;
+  text-align: center;
+  margin-left: -20px;
+
+}
+#fotochapes img{
+  width: 95%;
+    height: auto;
+    text-align: center;
+}
+
+
+#textc{
+
+  font-size: 1em;
+float: left;
+width: 90%;
+
+
+}
+#textc p{
+  padding: 10px;
+
+padding-left: 10%;
+}
+
+
+#divbotons2{
+  float:right;
+  margin-right: 6%;
+  position: relative;
+  width: 40%;
+  height: 30%;
+  background-color: ;
+  margin-top: 0%;
+}
+
+#divbotons2 a {
+  margin:2%;
+}
+
+.boton_personalizado11{
+  float: left;
+   text-decoration: none;
+   padding: 1%;
+   font-size: 9px;
+   color: black;
+   background-color: #B2B1B1;
+   border-radius: 6px;
+   border: 2px solid black;
+ }
+
+ .boton_personalizado22{
+   float: left;
+    text-decoration: none;
+    padding: 1%;
+    font-size: 9px;
+    color: black;
+    background-color: #B2B1B1;
+    border-radius: 6px;
+    border: 2px solid black;
+  }
+
+  .boton_personalizado33{
+    float: left;
+     text-decoration: none;
+     padding: 1%;
+     font-size: 9px;
+     color: black;
+     background-color: #B2B1B1;
+     border-radius: 6px;
+     border: 2px solid black ;
+   }
+   .boton_personalizado44{
+      margin-top: 10px;
+     float: right;
+      text-decoration: none;
+      padding: 1%;
+      font-size: 9px;
+      color: black;
+      background-color: #B2B1B1;
+      border-radius: 6px;
+      border: 2px solid black;
+    }
