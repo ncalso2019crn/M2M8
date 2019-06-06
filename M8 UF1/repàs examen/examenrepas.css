@@ -1,0 +1,81 @@
+body{
+  font-family: sans-serif;
+  background-color: grey;
+}
+
+
+.fondo{
+  width: 21.65%;
+  height: 100%;
+background-color: pink;
+  margin: 5px;
+  float: left;
+  margin-left: 50px;
+  box-shadow: 5px grey
+}
+
+#usuario{
+  height: 90px;
+  width: 80px;
+}
+
+
+#primero{
+  height: 400px;
+  width: 400px;
+
+  margin: 5px;
+}
+
+#segundo{
+height: 100px;
+width: 80px;
+
+  margin: 5px;
+  float: left;
+}
+
+#tercero{
+  height: 90px;
+  width: 310px;
+
+  float: left;
+    margin-left: 5px;
+
+}
+
+#imagen{
+  width: 400px;
+  height: 400px;
+}
+
+#cuarto{
+clear: both;
+  height: 50px;
+  width: 250px;
+
+  margin: 5px;
+  text-align: center;
+}
+
+#quinto{
+width: 400px;
+height: 200px;
+text-align: justify;
+  margin: 5px;
+}
+
+#sexto{
+  height: 50px;
+  width: 50px;
+text-align: right;
+  margin: 5px;
+  margin-left: 350px;
+}
+
+#septimo{
+  width: 400px;
+height: 60px;
+text-align: center;
+    margin: 5px;
+}

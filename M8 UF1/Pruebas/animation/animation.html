@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+  #bola{
+    width: 100px;
+    height: 100px;
+    border-radius: 0 50px 50px 0;
+    background-color: red;
+    position: relative;
+
+    animation-name: bola;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 5;
+    animation-direction: alternate;
+  }
+    @keyframes bola{
+      0%{
+        top: 0;
+        left: 0;
+      }
+      25%{
+        top: 0;
+        left: 1000px;
+        background-color: black;
+      }
+      50%{
+        top: 300px;
+        left: 1000px;
+        background-color: pink;
+        transform: scale(2) rotate(180deg);
+      }
+      75%{
+        top: 300px;
+        left: 0;
+        background-color: yellow;
+      }
+      100%{
+        top: 0;
+        left: 0px;
+        black-ground: grey;
+      }
+    }
+
+  </style>
+</head>
+<body>
+    <div id="bola">
+      </div>
+
+</body>
+</html>

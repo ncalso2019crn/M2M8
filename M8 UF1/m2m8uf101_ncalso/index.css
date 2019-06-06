@@ -1,0 +1,158 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+div{
+  overflow: visible;
+  position: relative;
+}
+
+.esquerra{
+  float: left;
+  margin-left: 80px;
+}
+
+.dreta{
+  margin-right: 80px;
+  float: right;
+
+}
+
+
+#cap{
+  width: 500px;
+  height: 600px;
+  background-color: #ffcd91;
+  margin: 0 auto;
+  border-radius: 100px 100px 200px 200px;
+  top: -800px;
+}
+
+.flequillo{
+  width: 500px;
+  height: 100px;
+  background-color: black;
+  border-radius: 0 0 20px 20px;
+
+}
+
+.pel{
+width: 600px;
+height: 900px;
+background-color: black;
+border-radius: 20px 20px 0 0;
+margin: 0 auto;
+
+}
+
+.celles{
+  height: 100px;
+}
+
+.cella{
+  width: 110px;
+  height: 30px;
+  background-color: black;
+  top: 20px;
+
+
+}
+
+.pestanyes{
+ height: 90px;
+
+}
+.pestanya{
+  width: 100px;
+  height: 90px;
+  border-radius: 100%;
+  background-color: black;
+  margin: 0 75px;
+}
+
+.irisos{
+ height: 90px;
+ background-color: ;
+ width: auto;
+ position: relative;
+ top: -85px;
+}
+
+.iris{
+  width: 85px;
+  height: 80px;
+  border-radius: 100%;
+  background-color: white;
+  margin: 0 82px;
+
+}
+
+.pupilas{
+  position: relative;
+  top: -145px;
+}
+
+.pupila{
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: blue;
+  margin: 0 115px;
+}
+.orelles{
+  width: 600px;
+  position: relative;
+  left:-50px;
+  top: -200px;
+}
+.orella{
+width: 50px;
+height: 100px;
+background-color: #ffcd91;
+margin: 0 auto;
+border-radius: 10px 10px 20px 10px;
+}
+
+.boca{
+  background: #ffa64d;
+  width: 109px;
+  height: 48px;
+  margin-left: 39%;
+  margin-top: 32px;
+  border-radius: 109% 115% 100% 117%;
+  animation-name: flash;
+  animation-duration: 3s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 5;
+    animation-direction: alternate;
+}
+
+@keyframes flash{
+      0%{
+        top: 0;
+        left: 0;
+      }
+      25%{
+        top: 0;
+        left: 1000px;
+        background-color: black;
+      }
+      50%{
+        top: 300px;
+        left: 1000px;
+        background-color: pink;
+
+      }
+      75%{
+        top: 300px;
+        left: 0;
+        background-color: yellow;
+      }
+      100%{
+        top: 0;
+        left: 0px;
+        black-ground: grey;
+      }
+    }
